@@ -1,0 +1,92 @@
+    @media only screen and (max-width: 600px) {
+        html,
+        body {
+            overflow-x: hidden;
+        }
+        #header .left {
+            position: relative;
+        }
+        #header .left-p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #header .rights-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0px;
+        }
+        #nav {
+            position: relative;
+        }
+        #nav .nav-links {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: black;
+            padding: 10px;
+        }
+        /*responsive banner part start  */
+        #banner .right_content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #banner .right_content h1 {
+            font-size: 28px;
+            text-align: center;
+        }
+        #banner .right_content h2 {
+            font-size: 22px;
+            text-align: center;
+        }
+        #banner .right_content p {
+            text-align: center;
+        }
+        /*responsive banner part End */
+        /* responive about part start  */
+        #about .left-image img {
+            margin-left: 35%;
+            margin-top: 15px;
+        }
+        #about .right-conten p {
+            text-align: center;
+        }
+        /* responive about part end */
+        /* responsive service part  start*/
+        #services .bottom p {
+            text-align: center;
+        }
+        #services .services_body {
+            margin: 10px 0px;
+        }
+        /* responsive service part end */
+        #testimonial .bottom p {
+            text-align: center;
+        }
+        #footer .one,
+        .footer_contact,
+        .importent_links,
+        .four {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #footer .importent_links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #footer .four {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
